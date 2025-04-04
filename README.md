@@ -36,20 +36,18 @@ src/
 ### How to Run
 1. Clone the repository:
    ```bash
-    git clone https://github.com/yourusername/customer-segmentation.git
+    git clone https://github.com/CarlosNoya/ML_Customer_Segmentation_Analysis_-_Clustering_models.git
    ```
 2. Navigate to the project folder
    ```bash
-   cd customer-segmentation
+   cd ML_Customer_Segmentation_Analysis_-_Clustering_models
    ```
 3. Install the required libraries:
    ```bash
     pip install -r requirements.txt
    ```
-4. Run the Jupyter notebook:
-   ```bash
-    jupyter notebook
-   ```
+4. Run the Jupyter notebook from `./src/result_notebooks/`:
+
 ### Dataset
 *Customer Personality Analysis* is a detailed analysis of a company’s ideal customers. It helps a business to better understand its customers and makes it easier for them to modify products according to the specific needs, behaviors, and concerns of different types of customers. 
 
@@ -69,9 +67,9 @@ The final model used for customer segmentation is **KMeans with K=3**. This mode
 
 ### Insights
 Based on the segmentation, three distinct customer profiles were identified:
-- 1. Low Engagement Shoppers: Customers with low spending, lower income, and a preference for visiting websites without purchasing.
-- 2. Moderate Shoppers: Customers with moderate spending, a preference for online shopping, and an interest in deals.
-- 3. High-Value Shoppers: Customers with high spending, high income, and an interest in premium products like wines, meat, and fish.
+- **Digital Curious**: Low Engagement Shoppers: Customers with low spending, lower income, and a preference for visiting websites without purchasing.
+- **Deal Hunters**: Moderate Shoppers: Customers with moderate spending, a preference for online shopping, and an interest in deals.
+- **Exclusive Elite**: High-Value Shoppers: Customers with high spending, high income, and an interest in premium products like wines, meat, and fish.
 
 ### Conclusion
 This segmentation model provides valuable insights for targeting customers effectively through personalized marketing strategies. Future work could involve experimenting with other clustering techniques and further improving the model's ability to predict customer behavior.
